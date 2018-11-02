@@ -1,0 +1,577 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "NUnitTestAdapter/2.1.1": {
+        "type": "package"
+      },
+      "Xamarin.Forms/3.1.0.697729": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Xamarin.UITest/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "App1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "bin/placeholder/App1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App1.dll": {}
+        }
+      },
+      "App1.Android/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/App1.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App1.Android.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "NUnitTestAdapter/2.1.1": {
+        "type": "package"
+      },
+      "Xamarin.Forms/3.1.0.697729": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Xamarin.UITest/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "App1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "bin/placeholder/App1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App1.dll": {}
+        }
+      },
+      "App1.Android/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/App1.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App1.Android.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "NUnitTestAdapter/2.1.1": {
+        "type": "package"
+      },
+      "Xamarin.Forms/3.1.0.697729": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Xamarin.UITest/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "App1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "bin/placeholder/App1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App1.dll": {}
+        }
+      },
+      "App1.Android/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/App1.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App1.Android.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "NUnit/2.6.4": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/nunit.framework.dll": {}
+        }
+      },
+      "NUnitTestAdapter/2.1.1": {
+        "type": "package"
+      },
+      "Xamarin.Forms/3.1.0.697729": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
+          "lib/netstandard2.0/Xamarin.Forms.Xaml.dll": {}
+        },
+        "build": {
+          "build/netstandard2.0/_._": {}
+        }
+      },
+      "Xamarin.UITest/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Xamarin.UITest.dll": {}
+        }
+      },
+      "App1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "bin/placeholder/App1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App1.dll": {}
+        }
+      },
+      "App1.Android/1.0.0": {
+        "type": "project",
+        "framework": "Unsupported,Version=v0.0",
+        "compile": {
+          "bin/placeholder/App1.Android.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/App1.Android.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NUnit/2.6.4": {
+      "sha512": "cmSPvaCMRSP0DI19FP1Liw9DyJY3E/vOY1OrVaeJBZpZFWHkmT3fB9ngGWnZX/ftvA7zJEbghEaw3Yd+u4YFAw==",
+      "type": "package",
+      "path": "nunit/2.6.4",
+      "files": [
+        "lib/nunit.framework.dll",
+        "lib/nunit.framework.xml",
+        "license.txt",
+        "nunit.2.6.4.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnitTestAdapter/2.1.1": {
+      "sha512": "jL9tOhRbLugacrDg0KAh3nvHinXnnVNkgiHwmKHtXk61zhpz3UvHzFOdZTfkUz7xf+VRuId1Ns5/nvHyQWaoqA==",
+      "type": "package",
+      "path": "nunittestadapter/2.1.1",
+      "files": [
+        "LICENSE.txt",
+        "nunittestadapter.2.1.1.nupkg.sha512",
+        "nunittestadapter.nuspec",
+        "tools/Mono.Cecil.Mdb.dll",
+        "tools/Mono.Cecil.Pdb.dll",
+        "tools/Mono.Cecil.Rocks.dll",
+        "tools/Mono.Cecil.dll",
+        "tools/NUnit.VisualStudio.TestAdapter.dll",
+        "tools/nunit.core.dll",
+        "tools/nunit.core.interfaces.dll",
+        "tools/nunit.util.dll"
+      ]
+    },
+    "Xamarin.Forms/3.1.0.697729": {
+      "sha512": "oYfHpCY9i9wN4vLllsIhzDZY5iOCUtZ3RHxID1fiXOcf7yL9UA16NUsI8opoNmpv1Ru2lTGG9ZKKT1sYS6DLjA==",
+      "type": "package",
+      "path": "xamarin.forms/3.1.0.697729",
+      "files": [
+        ".signature.p7s",
+        "build/netstandard1.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard1.0/Mono.Cecil.dll",
+        "build/netstandard1.0/System.CodeDom.dll",
+        "build/netstandard1.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard1.0/Xamarin.Forms.Core.dll",
+        "build/netstandard1.0/Xamarin.Forms.DefaultItems.props",
+        "build/netstandard1.0/Xamarin.Forms.DefaultItems.targets",
+        "build/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "build/netstandard1.0/Xamarin.Forms.props",
+        "build/netstandard1.0/Xamarin.Forms.targets",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/System.CodeDom.dll",
+        "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard2.0/Xamarin.Forms.Core.dll",
+        "build/netstandard2.0/Xamarin.Forms.DefaultItems.props",
+        "build/netstandard2.0/Xamarin.Forms.DefaultItems.targets",
+        "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "build/netstandard2.0/Xamarin.Forms.props",
+        "build/netstandard2.0/Xamarin.Forms.targets",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/tizen40/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/tizen40/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/tizen40/Xamarin.Forms.Core.dll",
+        "lib/tizen40/Xamarin.Forms.Core.pdb",
+        "lib/tizen40/Xamarin.Forms.Core.xml",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.pdb",
+        "lib/tizen40/Xamarin.Forms.Platform.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.pdb",
+        "lib/tizen40/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.xml",
+        "xamarin.forms.3.1.0.697729.nupkg.sha512",
+        "xamarin.forms.nuspec"
+      ]
+    },
+    "Xamarin.UITest/2.2.4": {
+      "sha512": "Nv5w9uSJ4eC1ivXG2ilI/zMDwYBOigrigMWURexUqxCSmTs0nRNUosPbYeSw4ujX0lsFJ43w4cJ/ZW4FyVoK4A==",
+      "type": "package",
+      "path": "xamarin.uitest/2.2.4",
+      "files": [
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "Xamarin.UITest-License.rtf",
+        "lib/net45/Xamarin.UITest.dll",
+        "lib/net45/Xamarin.UITest.xml",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.dll",
+        "lib/portable-net45+win8+wp8/Xamarin.UITest.xml",
+        "lib/tools/test-cloud.exe",
+        "tools/test-cloud.exe",
+        "xamarin.uitest.2.2.4.nupkg.sha512",
+        "xamarin.uitest.nuspec"
+      ]
+    },
+    "App1/1.0.0": {
+      "type": "project",
+      "path": "../App1/App1/App1.csproj",
+      "msbuildProject": "../App1/App1/App1.csproj"
+    },
+    "App1.Android/1.0.0": {
+      "type": "project",
+      "path": "../App1/App1.Android/App1.Android.csproj",
+      "msbuildProject": "../App1/App1.Android/App1.Android.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "App1 >= 1.0.0",
+      "App1.Android >= 1.0.0",
+      "NUnit >= 2.6.4",
+      "NUnitTestAdapter >= 2.1.1",
+      "Xamarin.UITest >= 2.2.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\desire.guilarte\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\desire.guilarte\\Source\\Repos\\TestTelerik\\UITest1\\UITest1.csproj",
+      "projectName": "UITest1",
+      "projectPath": "C:\\Users\\desire.guilarte\\Source\\Repos\\TestTelerik\\UITest1\\UITest1.csproj",
+      "packagesPath": "C:\\Users\\desire.guilarte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\desire.guilarte\\Source\\Repos\\TestTelerik\\UITest1\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\desire.guilarte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\desire.guilarte\\Documents\\GitHub\\CoachingMobileApp\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "C:\\Users\\desire.guilarte\\Source\\Repos\\TestTelerik\\App1\\App1.Android\\App1.Android.csproj": {
+              "projectPath": "C:\\Users\\desire.guilarte\\Source\\Repos\\TestTelerik\\App1\\App1.Android\\App1.Android.csproj"
+            },
+            "C:\\Users\\desire.guilarte\\Source\\Repos\\TestTelerik\\App1\\App1\\App1.csproj": {
+              "projectPath": "C:\\Users\\desire.guilarte\\Source\\Repos\\TestTelerik\\App1\\App1\\App1.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "NUnit": {
+            "target": "Package",
+            "version": "[2.6.4, )"
+          },
+          "NUnitTestAdapter": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
+          "Xamarin.UITest": {
+            "target": "Package",
+            "version": "[2.2.4, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project App1.Android is not compatible with net461 (.NETFramework,Version=v4.6.1). Project App1.Android supports: monoandroid81 (MonoAndroid,Version=v8.1)",
+      "libraryId": "App1.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project App1.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win. Project App1.Android supports: monoandroid81 (MonoAndroid,Version=v8.1)",
+      "libraryId": "App1.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project App1.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win-x64. Project App1.Android supports: monoandroid81 (MonoAndroid,Version=v8.1)",
+      "libraryId": "App1.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x64"
+      ]
+    },
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project App1.Android is not compatible with net461 (.NETFramework,Version=v4.6.1) / win-x86. Project App1.Android supports: monoandroid81 (MonoAndroid,Version=v8.1)",
+      "libraryId": "App1.Android",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1/win-x86"
+      ]
+    }
+  ]
+}
